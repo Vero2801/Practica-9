@@ -1,0 +1,99 @@
+#include <stdio.h>
+/*matrices*/
+int main () {
+
+int m1 [1000][1000]; //declara una matriz de 1000 x 1000
+int m2 [1000][1000]; // declara otra matriz de 1000 x 1000
+int r1; //numero de renglones de la matriz 1
+int r2; //numero de renglones de la matriz 2
+int c1; //numero de columnas de la matriz 1
+int c2; //numero de columnas de la matriz 2
+int contador_renglon; //se necesita para contar el numero de renglones
+int contador_columna; //se necesita para contr el numero de columnas
+//son variables de los renglones y columnas de las matrices
+//llenado de matrices
+contador_renglon=0; //la variable contador_renglon está en 0
+contador_columna=0; //la variable contador_columna está en 0
+while(contador_renglon<r1); { //mientras el contador de renglon sea menor a los relnglones
+  while(contador_columna<c1); { //mientras el contador columna sea menor al numero de columnas
+    scanf("r%d %d: &m1[contador_renglon][contador_columna]); //se asignara un valor a contador renglon y contador columna
+    contador_columna=contador_columna+1 //se aumentara en una unidad el contador columna
+  } //cierra el ciclo de las columnas
+  contador_renglon=contador_renglon+1 //se aumentará en una unidad el contador renglon
+} //cierra el ciclo de los renglones
+
+
+------------------------------------------------------------------------------------
+#include <stdio.h>
+/*matrices*/
+int main () {
+
+int m1 [1000][1000]; //declara una matriz de 1000 x 1000
+int m2 [1000][1000]; // declara otra matriz de 1000 x 1000
+int r1; //numero de renglones de la matriz 1
+scanf("inserte el numero de renglon: &r1");//se agrago para que el usuario inserte el numero de renglones
+int r2; //numero de renglones de la matriz 2
+scanf("inserte el numero de renglon: &r2");
+int c1; //numero de columnas de la matriz 1
+scanf("inserte el numero de renglon: &c1");//para que el usuario inserte el numero de columnas
+int c2; //numero de columnas de la matriz 2
+scanf("inserte el numero de renglon: &c2");
+int contador_renglon; //se necesita para contar el numero de renglones
+int contador_columna; //se necesita para contr el numero de columnas
+//son variables de los renglones y columnas de las matrices
+//llenado de matrices
+contador_renglon = 0; //la variable contador_renglon está en 0
+contador_columna = 0; //la variable contador_columna está en 0
+while(contador_renglon<r1); { //mientras el contador de renglon sea menor a los relnglones
+  while(contador_columna<c1); { //mientras el contador columna sea menor al numero de columnas
+    scanf("r%d %d: &m1[contador_renglon][contador_columna]); //el usuario asignara un valor a contador renglon y contador columna
+    contador_columna=contador_columna+1; //se aumentara en una unidad el contador columna
+  } //cierra el ciclo de las columnas
+  contador_renglon=contador_renglon+1; //se aumentará en una unidad el contador renglon
+} //cierra el ciclo de los renglones
+
+---------------------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+/*matrices*/
+int main () {
+
+int m1 [1000][1000]; //declara una matriz de 1000 x 1000
+int m2 [1000][1000]; // declara otra matriz de 1000 x 1000
+int r1; //numero de renglones de la matriz 1
+scanf("inserte el numero de renglon: &r1")
+int r2; //numero de renglones de la matriz 2
+scanf("inserte el numero de renglon: &r2")
+int c1; //numero de columnas de la matriz 1
+scanf("inserte el numero de renglon: &c1")
+int c2; //numero de columnas de la matriz 2
+scanf("inserte el numero de renglon: &c2")
+int contador_renglon; //se necesita para contar el numero de renglones
+int contador_columna; //se necesita para contr el numero de columnas
+//son variables de los renglones y columnas de las matrices
+//llenado de matrices
+contador_renglon = 0; //la variable contador_renglon está en 0
+contador_columna = 0; //la variable contador_columna está en 0
+while(contador_renglon<r1); { //mientras el contador de renglon sea menor a los relnglones
+  while(contador_columna<c1); { //mientras el contador columna sea menor al numero de columnas
+    scanf("r%d %d: &m1[contador_renglon][contador_columna]); //se asignara un valor a contador renglon y contador columna
+    contador_columna=contador_columna+1; //se aumentara en una unidad el contador columna
+  } //cierra el ciclo de las columnas
+  contador_renglon=contador_renglon+1; //se aumentará en una unidad el contador renglon
+} //cierra el ciclo de los renglones
+//para llenar la segunda matriz
+contador_renglon = 0; //la variable contador_renglon está en 0
+contador_columna = 0; //la variable contador_columna está en 0
+while(contador_renglon<r1); { //mientras el contador de renglon sea menor a los relnglones
+  while(contador_columna<c1); { //mientras el contador columna sea menor al numero de columnas
+    scanf("r%d %d: &m2[contador_renglon][contador_columna]); //se asignara un valor a contador renglon y contador columna
+    contador_columna=contador_columna+1; //se aumentara en una unidad el contador columna
+  } //cierra el ciclo de las columnas
+  contador_renglon=contador_renglon+1; //se aumentará en una unidad el contador renglon
+} //cierra el ciclo de los renglones
+
+
+
+
+
